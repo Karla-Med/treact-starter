@@ -272,7 +272,7 @@ FEATURES ↓
 }
 
 .features__header {
-    padding: 15px;
+    padding: 48px;
 }
 
 .features__header--description {
@@ -338,6 +338,51 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.quality__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+}
+
+.quality__titles {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.quality__header--description {
+    color: #718096;
+    line-height: 2;
+    margin-bottom: 32px;
+}
+
+.quality__btn {
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.quality__subtitles {
+    color: #6415ff;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
 
 /* 
 
