@@ -688,6 +688,84 @@ TESTIMONIALS ↓
   display: flex;
 }
 
+.testimonials__img--wrapper,
+.testimonials__content {
+    width: 50%;
+}
+
+.testimonials__content {
+    padding-left: 32px;
+}
+
+.testimonials__img {
+    width: 100%;
+}
+
+.testimonials__subtitles {
+    color: #6415ff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.testimonials__titles {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.testimonials__description,
+.testimonials__review--description {
+    color: #718096;
+  line-height: 2;
+}
+
+.testimonials__author--img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.testimonials__rating {
+    color: #ecc94b;
+    margin: 24px 0 12px;
+}
+
+.testimonials__review {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.testimonials__author {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.testimonials__author--title {
+    font-size: 14px;
+}
+
+.testimonials__arrows {
+    margin-left: auto;
+}
+
+.testimonials__arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #edf2f7;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.testimonials__rating i {
+    color: #ecc94b;
+}
+
 /* 
 
 START / CALL TO ACTION ↓
