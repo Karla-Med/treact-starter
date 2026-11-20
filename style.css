@@ -796,11 +796,11 @@ FAQS ↓
 }
 
 .faq__question i {
-    transition: tranform 300ms ease;
+  transition: tranform 300ms ease;
 }
 
 .faq:hover .faq__question i {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .faq__answer {
@@ -814,9 +814,9 @@ FAQS ↓
 }
 
 .faq:hover .faq__answer {
-    max-height: 300px;
-    opacity: 1;
-    margin-top: 16px;
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 16px;
 }
 
 .faqs__header {
@@ -852,6 +852,74 @@ START / CALL TO ACTION ↓
   position: relative;
   overflow: hidden;
 }
+
+.start__button {
+  display: flex;
+}
+
+.start__btn {
+  background-color: rgba(255, 115, 0, 0.929);
+  color: white;
+  border: none;
+  border-radius: 500px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.start__btn--contact {
+  color: white;
+  border: 2px solid white;
+  border-radius: 500px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  margin-left: 16px;
+}
+
+.start__box {
+  padding: 64px 80px;
+  background-color: rgb(100, 21, 255);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.start__title {
+  color: white;
+  width: 50%;
+  font-size: 24px;
+}
+
+.start__box::before,
+.start__box::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.start__box::before {
+    top: -150px;
+    right: -100px;
+}
+
+.start__box::after {
+    bottom: -150px;
+    left: -100px;
+}
+
 
 /* 
 
