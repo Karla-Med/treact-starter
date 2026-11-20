@@ -1125,3 +1125,52 @@ MOBILE RESPONSIVENESS ↓
     margin-bottom: 80px;
   }
 }
+
+@media (max-width: 550px) {
+  .header__form {
+    flex-direction: column;
+    border: none;
+    gap: 12px;
+  }
+  .header__email{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: 14px 20px;
+  }
+  .header__btn {
+    width: 100%;
+  }
+  .features__header {
+    text-align: center;
+    padding: 0 0 24px;
+  }
+  .service {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .value__list {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .value {
+    width: 100%;
+  }
+  .value__content {
+    width: 100%;
+    padding-right: 0;
+  }
+  .footer__columns {
+    flex-wrap: wrap;
+  }
+  .footer__columns > div {
+    width: 30%;
+    margin-bottom: 24px;
+  }
+  .footer__bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
