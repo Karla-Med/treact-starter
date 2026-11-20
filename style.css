@@ -640,16 +640,16 @@ PRICING ↓
 }
 
 .plan--personal {
-    border-top: 6px solid #38b2ac;
+  border-top: 6px solid #38b2ac;
 }
 
 .plan--enterprise {
-    border-top: 6px solid #f56565;
+  border-top: 6px solid #f56565;
 }
 
 .plan--business {
-    background: linear-gradient(135deg, #5a4fcf, #667eea);
-    color: white;
+  background: linear-gradient(135deg, #5a4fcf, #667eea);
+  color: white;
 }
 
 .plan--business .plan__period,
@@ -657,25 +657,25 @@ PRICING ↓
 .plan--business .plan__features--title,
 .plan--business .plan__price,
 .plan--business .plan__name {
-    color: white;
+  color: white;
 }
 
 .plan--business .plan__btn {
-    background-color: white;
-    color: #6415ff;
+  background-color: white;
+  color: #6415ff;
 }
 
 .plan--business .plan__top,
 .plan--business .plan__features {
-    border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .plan--personal .plan__btn {
-    background: linear-gradient(90deg, #38b2ac, #81e6d9);
+  background: linear-gradient(90deg, #38b2ac, #81e6d9);
 }
 
 .plan--enterprise .plan__btn {
-    background: linear-gradient(90deg, #f56565, #fc8181);
+  background: linear-gradient(90deg, #f56565, #fc8181);
 }
 
 /* 
@@ -690,19 +690,19 @@ TESTIMONIALS ↓
 
 .testimonials__img--wrapper,
 .testimonials__content {
-    width: 50%;
+  width: 50%;
 }
 
 .testimonials__content {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .testimonials__img {
-    width: 100%;
+  width: 100%;
 }
 
 .testimonials__subtitles {
-    color: #6415ff;
+  color: #6415ff;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
@@ -716,54 +716,130 @@ TESTIMONIALS ↓
 
 .testimonials__description,
 .testimonials__review--description {
-    color: #718096;
+  color: #718096;
   line-height: 2;
 }
 
 .testimonials__author--img {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 16px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
 }
 
 .testimonials__rating {
-    color: #ecc94b;
-    margin: 24px 0 12px;
+  color: #ecc94b;
+  margin: 24px 0 12px;
 }
 
 .testimonials__review {
-    font-size: 20px;
-    margin-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .testimonials__author {
-    display: flex;
-    align-items: center;
-    margin-top: 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
 }
 
 .testimonials__author--title {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .testimonials__arrows {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .testimonials__arrow {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background-color: #edf2f7;
-    cursor: pointer;
-    margin-left: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #edf2f7;
+  cursor: pointer;
+  margin-left: 8px;
 }
 
 .testimonials__rating i {
-    color: #ecc94b;
+  color: #ecc94b;
+}
+
+/* 
+
+FAQS ↓
+
+*/
+
+.faqs__list {
+  max-width: 700px;
+  margin: 48px auto 0;
+}
+
+.faq {
+  background-color: #f7fafc;
+  padding: 16px 24px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.faq__question {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.faq__question i {
+    transition: tranform 300ms ease;
+}
+
+.faq:hover .faq__question i {
+    transform: rotate(180deg);
+}
+
+.faq__answer {
+  color: #718096;
+  line-height: 2;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0px;
+  transition: all 300ms ease;
+}
+
+.faq:hover .faq__answer {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 16px;
+}
+
+.faqs__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.faqs__subtitle {
+  color: #6415ff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.faqs__title {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.faqs__description {
+  color: #718096;
+  line-height: 2;
 }
 
 /* 
